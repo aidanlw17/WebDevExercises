@@ -1,0 +1,29 @@
+Methods for DOM selecting:
+
+document.getElementById()
+-selects element based on its id
+
+document.getElementsByClassName()
+-selects elements based on class name, returns them in a list
+
+document.getElementsByTagName()
+-selects elements based on tag name, returns them in a list (node list, not array). Each entry is an object
+
+document.querySelector("#highlight")
+-takes a css-style selector
+-returns first element that matches
+
+document.querySelectorAll(".bolded")
+-takes a css-style selector
+-returns all elements that match 
+
+Methods for DOM manipulation:
+-document.style
+-define css class, toggle it within js
+-classList.toggle
+-classList.add
+-classList.remove
+-classList is not an array
+
+.textContent
+.innerHTML (includes other tags when copied, recognizes html)

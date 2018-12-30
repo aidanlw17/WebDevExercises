@@ -1,0 +1,81 @@
+/*Element*/
+li {
+
+}
+/*Class*/
+.hello {
+
+}
+/*id*/
+#name {
+
+}
+
+/*Star Selectors*/
+
+* {
+	border: 1px solid red;
+}
+
+/*Descendant Selectors*/
+
+li a {
+	color: blue;
+}
+
+/*Adjacent Selectors*/
+
+h4 + ul {
+	background: lightgrey;
+}
+
+/*Attribute Selectors*/
+
+a[href=http://www.google.com] {
+	background: blue;
+}
+
+/*nth of type*/
+
+li:nth-of-type(even) {
+	background: purple;
+}
+
+/*Specificity*/
+/*Type Selectors*/
+li{
+
+}
+
+li a {
+
+}
+
+li + a {
+
+}
+
+/*Class, Attribute, and Pseudo-Class Selectors*/
+
+.hello{
+
+}
+
+input[type="text"] {
+
+}
+
+/*id Selectors*/
+
+#hello {
+	
+}
+
+
+
+
+
+
+
+
+
